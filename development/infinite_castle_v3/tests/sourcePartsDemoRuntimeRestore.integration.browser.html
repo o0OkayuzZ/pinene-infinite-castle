@@ -1,0 +1,40 @@
+<!doctype html>
+<meta charset="utf-8">
+<script type="importmap">
+{"imports":{"@minecraft/server":"./minecraftServerDemoRuntimeStub.js"}}
+</script>
+<body>pending</body>
+<script type="module">
+import { __mock } from "@minecraft/server";
+import {
+    restoreTestPlan as plan,
+    restoreTestProgression as progression,
+} from "./sourcePartsDemoRuntimeRestoreSeed.js";
+import * as runtime from "../scripts/infinite_castle/sourcePartsDemoRuntime.js?restore_test=1";
+
+try {
+    __mock.runScheduled();
+    if (__mock.intervalCount() !== 1) throw new Error("saved runtime did not restart detector");
+
+    const player = __mock.createPlayer("reload_tester", plan.dimensionId, { x: -100, y: 0, z: 0 });
+    __mock.setPlayers(plan.dimensionId, [player]);
+    __mock.fireScriptEvent("infinite_castle:demo_status", player);
+    if (!player.messages.some((message) => message.includes(`seed=${plan.seed}`))) {
+        throw new Error("restored status command did not use saved progression");
+    }
+
+    runtime.deactivateSourcePartsDemo();
+    document.body.textContent = JSON.stringify({
+        ok: true,
+        restoredSeed: plan.seed,
+        restoredRooms: progression.rooms.length,
+        detectorRestarted: true,
+        statusCommand: true,
+    });
+} catch (error) {
+    document.body.textContent = JSON.stringify({
+        ok: false,
+        error: String(error?.stack ?? error),
+    });
+}
+</script>

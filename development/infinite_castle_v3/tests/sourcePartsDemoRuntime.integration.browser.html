@@ -1,0 +1,109 @@
+<!doctype html>
+<meta charset="utf-8">
+<script type="importmap">
+{"imports":{"@minecraft/server":"./minecraftServerDemoRuntimeStub.js"}}
+</script>
+<body>pending</body>
+<script type="module">
+import { __mock } from "@minecraft/server";
+import {
+    SOURCE_PARTS_DEMO_RUNTIME_PROPERTY_KEY,
+    activateSourcePartsDemo,
+    deactivateSourcePartsDemo,
+} from "../scripts/infinite_castle/sourcePartsDemoRuntime.js";
+import { parseSourcePartsDemoRuntimeRecord } from "../scripts/infinite_castle/sourcePartsDemoRuntimePure.js";
+import { summarizeSourcePartsDemoProgressionState } from "../scripts/infinite_castle/sourcePartsDemoProgressionState.js";
+import { createRuntimePlan } from "./sourcePartsDemoRuntime.test.js";
+
+function assert(condition, message) {
+    if (!condition) throw new Error(message);
+}
+
+function center(room) {
+    return {
+        x: (room.bounds.minX + room.bounds.maxX) / 2,
+        y: (room.bounds.minY + room.bounds.maxY) / 2,
+        z: (room.bounds.minZ + room.bounds.maxZ) / 2,
+    };
+}
+
+function savedRuntime() {
+    return parseSourcePartsDemoRuntimeRecord(
+        __mock.getDynamicProperty(SOURCE_PARTS_DEMO_RUNTIME_PROPERTY_KEY)
+    );
+}
+
+try {
+    __mock.runScheduled();
+    const plan = createRuntimePlan(0x10203040);
+    const activated = activateSourcePartsDemo(plan);
+    assert(activated.rooms === 15, "activation room count");
+    assert(activated.serializedLength < 32767, "activation persistence size");
+    assert(__mock.intervalCount() === 1, "detector started once");
+
+    let restored = savedRuntime();
+    assert(restored, "activation persisted runtime");
+    const player = __mock.createPlayer("tester", plan.dimensionId, { x: -100, y: 0, z: 0 });
+    __mock.setPlayers(plan.dimensionId, [player]);
+
+    const finalRoom = restored.rooms.find((room) => room.role === "final");
+    player.location = center(finalRoom);
+    __mock.runIntervals();
+    assert(player.messages.some((message) => message.includes("[locked]")), "locked room notice");
+    __mock.fireScriptEvent("infinite_castle:demo_complete", player);
+    assert(player.messages.at(-1).includes("通行自体は可能"), "locked manual completion denied");
+
+    restored = savedRuntime();
+    for (const objective of restored.progression.requiredObjectives.slice(0, 3)) {
+        const room = restored.rooms.find((candidate) => candidate.roomId === objective.roomId);
+        player.location = center(room);
+        __mock.runIntervals();
+        if (room.role === "miniboss") {
+            assert(player.messages.at(-1).includes("demo_complete"), "manual objective hint");
+            __mock.fireScriptEvent("infinite_castle:demo_complete", player);
+        }
+        restored = savedRuntime();
+    }
+    let summary = summarizeSourcePartsDemoProgressionState(restored.progression, restored.state);
+    assert(summary.keyCount === 1, "key auto-completed");
+    assert(summary.minibossCount === 1, "miniboss manually completed");
+    assert(player.messages.some((message) => message.includes("[available]")), "available notice");
+    assert(player.messages.some((message) => message.includes("[complete]")), "complete notice");
+
+    __mock.fireScriptEvent("infinite_castle:demo_status", player);
+    assert(player.messages.some((message) => message.includes("shared seed=")), "status command");
+    __mock.fireScriptEvent("infinite_castle:demo_route", player);
+    assert(player.messages.some((message) => message.includes("上下反転=")), "route command");
+    assert(
+        player.messages.some((message) => /\(-?\d+,-?\d+,-?\d+\)/.test(message)),
+        "route command exposes integer room centers"
+    );
+    __mock.fireScriptEvent("infinite_castle:demo_reset", player);
+    restored = savedRuntime();
+    summary = summarizeSourcePartsDemoProgressionState(restored.progression, restored.state);
+    assert(summary.completedRoomCount === 0, "reset command");
+    const messageCount = player.messages.length;
+    __mock.runIntervals();
+    assert(player.messages.length === messageCount, "reset does not immediately retrigger current room");
+
+    deactivateSourcePartsDemo();
+    assert(__mock.intervalCount() === 0, "detector stopped");
+    assert(__mock.getDynamicProperty(SOURCE_PARTS_DEMO_RUNTIME_PROPERTY_KEY) === undefined, "saved state cleared");
+
+    document.body.textContent = JSON.stringify({
+        ok: true,
+        activatedRooms: activated.rooms,
+        serializedLength: activated.serializedLength,
+        messages: player.messages.length,
+        keyAuto: true,
+        minibossManual: true,
+        reset: true,
+        deactivated: true,
+    });
+} catch (error) {
+    document.body.textContent = JSON.stringify({
+        ok: false,
+        error: String(error?.stack ?? error),
+    });
+}
+</script>

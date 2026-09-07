@@ -1,0 +1,22 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "無限城リソースパック",
+    "description": "無限城ダンジョン専用リソースパック(Prototype v0.1.5)",
+    "uuid": "c6529ee0-0a34-4f28-b5ff-66d335fee9bc",
+    "version": [0, 1, 5],
+    "min_engine_version": [1, 20, 30]
+  },
+  "modules": [
+    {
+      "description": "リソースモジュール",
+      "type": "resources",
+      "uuid": "07a42a17-e2e8-4c82-b0e2-227cc6bdc6bc",
+      "version": [0, 1, 5]
+    }
+  ],
+  "metadata": {
+    "authors": ["ピネン"],
+    "product_type": "addon"
+  }
+}

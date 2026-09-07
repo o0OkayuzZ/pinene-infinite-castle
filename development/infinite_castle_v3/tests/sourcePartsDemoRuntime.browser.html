@@ -1,0 +1,15 @@
+<!doctype html>
+<meta charset="utf-8">
+<body>pending</body>
+<script type="module">
+import { runSourcePartsDemoRuntimeTests } from "./sourcePartsDemoRuntime.test.js";
+
+try {
+    document.body.textContent = JSON.stringify(runSourcePartsDemoRuntimeTests());
+} catch (error) {
+    document.body.textContent = JSON.stringify({
+        ok: false,
+        error: String(error?.stack ?? error),
+    });
+}
+</script>

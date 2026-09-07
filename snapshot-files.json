@@ -1,0 +1,762 @@
+[
+  {
+    "path": "behavior_packs/infinite_castle/DESIGN_INTENT.md",
+    "size": 3542,
+    "sha256": "c96d1f7576fbf04a7c6f08d31a4b8312b3fac7af92210259a9e0af41b5d5782f"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/manifest.json",
+    "size": 1012,
+    "sha256": "64782756097c2bc554ebe058502c52ec2f7133f778d030524c51f26e33a208c7"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/package.json",
+    "size": 42,
+    "sha256": "609158e6c5fbc237939fa3ddf7faab80ab690bdc0c8d584414a885130103c4e8"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/README.md",
+    "size": 18599,
+    "sha256": "d135e48e57f57729985de254acaa1f9f7b582f25c302f175fcbf71f1062624f0"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/blocks/infinite_castle_entrance_marker.block.json",
+    "size": 623,
+    "sha256": "fc2615d34bdf44e25d6bb31b1a34b0161022ba595eeaf7a88e3d9ab001bf0316"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/main.js",
+    "size": 101,
+    "sha256": "f5b83048f638054b4f50c46ea95b06ed407e0633882ef9b0c7d5f3a162706765"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/tests/chunkLoading.test.js",
+    "size": 1635,
+    "sha256": "2d1f42711819eb97ad4b7f40bcf73e73c25a37d7ab4f48b0f9f62a01744e829e"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/tests/connectionIntegrity.test.js",
+    "size": 2350,
+    "sha256": "4e1d37a7f6f763540b7ef725a1b8c4471d9478fc2cbc38e98ede56f9ba0847b7"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/tests/entranceTransition.test.js",
+    "size": 4612,
+    "sha256": "b4f3b4ed76308f56eb36b8b300af793eb0776032fd080372143f99f1a434a7ea"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/tests/infiniteCastle.logic.test.js",
+    "size": 9513,
+    "sha256": "1045e59ff6c7e9667fc936f581a1a4ea7fcdcd26b2d66e609234191a772420cb"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/tests/japaneseRoomBuilder.test.js",
+    "size": 6195,
+    "sha256": "5aa367c1d1539c5d95ef6486b6376ccc2040dddf28b65779d70a0667fc60b285"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/tests/minecraft-server-loader.mjs",
+    "size": 305,
+    "sha256": "56e33619ff6a0c5452baef3ef9d90b2e11fffc0c2b061d04841d8e7855276da7"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/tests/minecraft-server-mock.js",
+    "size": 1402,
+    "sha256": "597feff99543d2564b1ab37f5b04839810075e22d48ec214a6b417c77918247f"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/tests/runtimeLink.test.js",
+    "size": 631,
+    "sha256": "abbb4296622f44bbb5660697531f5deb22c0f3d16aac06dd4032d43682632a8a"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/tests/soundRegistry.test.js",
+    "size": 1364,
+    "sha256": "e3108df8ef2b8fef83c0270a7133f62244198e9b9f88a385789293014a63963f"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/tests/sourcePartsPlanner.test.js",
+    "size": 2937,
+    "sha256": "10031c8a27b42c34e4d5d085b21292c459005b0e418b05f78aa6aba971bb59f2"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/tests/sourcePartsState.test.js",
+    "size": 2094,
+    "sha256": "ff0c6651ef3a6c329b4f880cf893c57807f4dd9b8dd9d62e485bb1255232a79b"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/tests/sourcePartsVolumes.test.js",
+    "size": 2621,
+    "sha256": "a1c149d9fb4a444383570dddda8ed84e933ef56979affd5577782da507c1d987"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/chunkLoading.js",
+    "size": 2596,
+    "sha256": "88e281389001765bdc44cd3b64d5abdd4006321d52e1ec5dfed058ad7a0487e9"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/config.js",
+    "size": 4500,
+    "sha256": "44240db3e202a570f64427337ae1e60d46a2e17ed0aeaa09d9099901effc0e4c"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/connectionIntegrity.js",
+    "size": 3658,
+    "sha256": "365239ec2c41e613d25058fb067e2e26b1e05e98980756d70407729af43a5d79"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/connector.js",
+    "size": 3971,
+    "sha256": "9f4920872dd536016241e496eb864580b8578285ecbc498d7648cecd0be83a34"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/dimensionSetup.js",
+    "size": 527,
+    "sha256": "0479a96e867b032b0806c1b2acdff48337e2b8feb9eac9f31e880f5b19198de8"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/dungeonGenerator.js",
+    "size": 14196,
+    "sha256": "96e1407b929aded5da750e3652befc5749380641155104194ad29166b3704818"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/dungeonGraph.js",
+    "size": 5289,
+    "sha256": "f1e340f246774c26a37144e2ebda60dfccc708b1ca2bf8e3154a9c14c5e16669"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/entranceTransition.js",
+    "size": 4383,
+    "sha256": "8079b1dea1f42b9d2abdd747ad4f49a7231ea75c0269dd67814abb58ee75a0d1"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/gridUtils.js",
+    "size": 774,
+    "sha256": "85d6e305b18ac9a331cde0a39f58f2f4bcd20db5b11e624c8d2875e91373ebb7"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/infiniteCastleAtmosphere.js",
+    "size": 1679,
+    "sha256": "c195f7992d7f7e974e7610170a4ca11d2beedd4969ba5fbae8f6ea4b54b2fa6b"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/infiniteCastleManager.js",
+    "size": 70891,
+    "sha256": "a9dc787763702500390756a4555a3fc1b67cff650b16dee2363995ad59f82025"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/japaneseCastlePieces.js",
+    "size": 10893,
+    "sha256": "82c19b285425725a35209c6fed5cc77dbb5c9f32f8e1b25fe4468c092e836b0f"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/japaneseRoomBuilder.js",
+    "size": 25344,
+    "sha256": "2eb93390bc52ca030f45be4fb68ce6dd8ff6870c032bd136d4a8f2a4e79b1361"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/placeholderStructures.js",
+    "size": 7758,
+    "sha256": "eef6b2048d5458b8bd2ee32b22efc2f37421d11b95dd399bfd70c193b561a0de"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/playerRoomTracker.js",
+    "size": 496,
+    "sha256": "489372dea4fb2ab72e66049f80cb676cd8307d187e9f62230125db165bd66130"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/reconstructionManager.js",
+    "size": 6299,
+    "sha256": "398cd75627d701b97d8ee4a31d6adeea00efc9efaa83696cddbabae4ef238ceb"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/roomInstance.js",
+    "size": 540,
+    "sha256": "68b8bd56b85817d0ad5b38c612c016bbae0a7b823a7c81d4e60d51410948a16b"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/roomRegistry.js",
+    "size": 5911,
+    "sha256": "b129fbe973f06ce4333b3f9e613d16656e7197fe821ae59a875e98d6bb7723d9"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/roomSeed.js",
+    "size": 2661,
+    "sha256": "4b0826a43d8e95af573785b8050a81ba7ad20456ecc2e75fd23afb18ff0423d3"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/roomTemplateArchitecture.js",
+    "size": 14547,
+    "sha256": "5df0d5e89bab2285228c7de8ccdce4599e94811c96b573e9ed0071286292e3fc"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/sourcePartsConnectionClearance.js",
+    "size": 2667,
+    "sha256": "252086cf515a8e9b519565a375f08cffb34f0a23986853783d50759c567940d2"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/sourcePartsDemoProgression.js",
+    "size": 15434,
+    "sha256": "7416c6f3774219711c64bd0ca6eeab0d84669c4b2e29a48cf188084b5ce7931d"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/sourcePartsDemoProgressionState.js",
+    "size": 7095,
+    "sha256": "232aa6c5738624b3050b5108b005f050f59293f4f5215a4189776231b6cf4486"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/sourcePartsDemoRuntime.js",
+    "size": 16895,
+    "sha256": "16a647f223e93092bf1190870291221e2b22f1ac92471624a89dfd471aa3dc33"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/sourcePartsDemoRuntimePure.js",
+    "size": 13833,
+    "sha256": "6a168ad718621f6549a0563addc4a3010ceb0c140142ba287bd615e02bcfcf95"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/sourcePartsDynamicReconstruction.js",
+    "size": 25943,
+    "sha256": "dc23094faed27e8ce2587f6974d84661f26654b654b15f313b34b088facedc1f"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/sourcePartsGeneratedCatalog.js",
+    "size": 398533,
+    "sha256": "b0422fdc19ac42e9e51f141b15907f0420c376f70d8220e140d4b9c53f9f628d"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/sourcePartsGeneratedCatalog.json",
+    "size": 2390582,
+    "sha256": "f7ac50a8b793244c1fa76ff8ecb901d1e4508841fb4f76e1a570062b7daf8925"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/sourcePartsPlacementIntegrity.js",
+    "size": 9122,
+    "sha256": "78f7ddb42a55432e0451716ae8de06259e209ce07c8d2847379ac8af852448f0"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/sourcePartsPlanner.js",
+    "size": 28242,
+    "sha256": "66e2bef194c8e2c92d4ac3356b76c058e7dba52b04463ea5899910d64a5301ea"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/sourcePartsPreview.js",
+    "size": 5129,
+    "sha256": "bbad1e70f90e83f7fe05e2d89f068f67ae6f5a6b36e04dc3109ca6025b05d6f8"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/sourcePartsRebuildOptions.js",
+    "size": 3851,
+    "sha256": "7d5c85d1c9f64dba892d226ed22c5df53558e91255f3b0cf3809ad85a1d28a0e"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/sourcePartsReconstructionV2.js",
+    "size": 67990,
+    "sha256": "cb5e71b14362130c59fb4fe8aae2f363f9452ef136aea699c059cb7b27742c19"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/sourcePartsRegistry.js",
+    "size": 6187,
+    "sha256": "6ba4a56b762feac7900231e042f1839cf739c638c62cd3ec93bf08ae4109c91f"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/sourcePartsScenery.js",
+    "size": 18488,
+    "sha256": "58734c6c34555facdaa235d8ec97a2180f9d0eb68f11e34d254b7d1e21e3306b"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/sourcePartsSceneryPlanner.js",
+    "size": 71142,
+    "sha256": "01133b2b9b765d2f6c71296c3dc12603db420852576d927e189bc2abb3294ce3"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/sourcePartsStairSmoothing.js",
+    "size": 6720,
+    "sha256": "a487d5a435dee3946b87e1cdf63eb0865bd7716b7345c011d71124d95d597a84"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/sourcePartsState.js",
+    "size": 2736,
+    "sha256": "2d6aa2a1b3062a95b3ab459d29e1c3caf97efda8451603ee009c4dfcab464364"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/sourcePartsVolumes.js",
+    "size": 6605,
+    "sha256": "683550a9bf9a6d6347ad1c36d37e8ee8a5067ad51ebe5c0ae6d3a4c63a2a4099"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/topologyDungeonGenerator.js",
+    "size": 16145,
+    "sha256": "c6330c90cd104f6c2e5ef28938546c37a1d2262314533602fb051499b369c963"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/scripts/infinite_castle/worldCoords.js",
+    "size": 1101,
+    "sha256": "e08c50d8e7196c3bbc71aa4a5dfddce73fbba38180ba333090407325840b445d"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/structures/infinite_castle/generated_variants/castle_part_001_up_r0.mcstructure",
+    "size": 573196,
+    "sha256": "eee5a7e711b5eaf5f5fe8ab56735ec7c69b903637efda4e4f1cf113b8a88be66"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/structures/infinite_castle/generated_variants/castle_part_001_up_r1.mcstructure",
+    "size": 573196,
+    "sha256": "0023e3d03a2230440436009cf0c2761675a4fd0feb28fc31ed68f64045b925a0"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/structures/infinite_castle/generated_variants/castle_part_001_up_r2.mcstructure",
+    "size": 573196,
+    "sha256": "3835e280bfd8bd53bec297eb03d80e5201bc857eb2e20533a54072f7cf6e1de9"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/structures/infinite_castle/generated_variants/castle_part_001_up_r3.mcstructure",
+    "size": 573196,
+    "sha256": "606c82ec8c47f3e066ab09cf568dea544d57585d9bc2736448b7ba09d238db39"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/structures/infinite_castle/generated_variants/castle_part_002_east_r2.mcstructure",
+    "size": 460023,
+    "sha256": "047a5c6e116cb2c5b283d879ca8dee51a34cb642c5ff01e054fa7321b57a7c8a"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/structures/infinite_castle/generated_variants/castle_part_002_south_r2.mcstructure",
+    "size": 460023,
+    "sha256": "cbcc0fc970558c1ae74155bd6e6c95a5adcc080f51efad6f5533fad9471de39b"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/structures/infinite_castle/generated_variants/castle_part_002_up_r3.mcstructure",
+    "size": 460023,
+    "sha256": "b2a5fff581c0666ceac993e9d68a146543f3fc4e62d3803a1c42e3975784b0ff"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/structures/infinite_castle/generated_variants/castle_part_003_up_r2.mcstructure",
+    "size": 227524,
+    "sha256": "ee406445c6df7b7abe369221e69925eeadd24d1c510f993360716b488cb94a82"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/structures/infinite_castle/generated_variants/castle_part_003_up_r3.mcstructure",
+    "size": 227526,
+    "sha256": "51b0922c56c16160b86c26ae0de494cc17dd08e12852238a7e1bf354ccb92724"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/structures/infinite_castle/generated_variants/castle_part_004_down_r2.mcstructure",
+    "size": 225309,
+    "sha256": "134d66630beee53fa2670a2522b87250cb6da9ce4538520ae96e4af0c9c48d63"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/structures/infinite_castle/generated_variants/castle_part_004_east_r2.mcstructure",
+    "size": 225309,
+    "sha256": "1b137246c0a0ddd7016ef950e6a1658913c9229664c04a6fe45c2ef5af68d8d1"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/structures/infinite_castle/generated_variants/castle_part_004_north_r3.mcstructure",
+    "size": 225308,
+    "sha256": "2b308b5491b9b8c4b7973e3eb8b5be9a3f6f66805bc778f1ad711e5c506a7220"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/structures/infinite_castle/generated_variants/castle_part_004_south_r2.mcstructure",
+    "size": 225308,
+    "sha256": "5b1801f0c2b2d8ab47c83f08f995f98edc9995a709921143a1bbfce492def372"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/structures/infinite_castle/generated_variants/castle_part_004_up_r3.mcstructure",
+    "size": 225308,
+    "sha256": "23a4bbb7d6c71322c7fc4cfe0f144e92c0f6fd96bc4b0ddc5bc278f621a651b7"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/structures/infinite_castle/generated_variants/castle_part_004_west_r3.mcstructure",
+    "size": 225308,
+    "sha256": "f419f2ec73896041ea8cfe2fe2eaa94c781b1e1cfa9479621ecb367bc83c0a4e"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/structures/infinite_castle/generated_variants/castle_part_005_east_r2.mcstructure",
+    "size": 158388,
+    "sha256": "d064d60788ea1611ab51860d9cf385a5ed2e95140aa20c04de5b2c32f95c369e"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/structures/infinite_castle/generated_variants/castle_part_005_south_r2.mcstructure",
+    "size": 158388,
+    "sha256": "468768075d934314957443ff8ae22536bea6d15ab111f6d39c048425307be2af"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/structures/infinite_castle/generated_variants/castle_part_005_up_r3.mcstructure",
+    "size": 158388,
+    "sha256": "977a7de24008f4bc81618ded62107414818f2aa6cd5f7cadc3f5a69ba556c92c"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/structures/infinite_castle/generated_variants/castle_part_006_east_r2.mcstructure",
+    "size": 158388,
+    "sha256": "982a12049632ed6b712cd66504f2a6182495d0f58a98bc61fecfb08e87c2fac2"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/structures/infinite_castle/generated_variants/castle_part_006_south_r2.mcstructure",
+    "size": 158388,
+    "sha256": "e8ac84c5a2af23fdde4cafbde6b956cf2fd6e66862b5bf3d1a46e6635937394c"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/structures/infinite_castle/generated_variants/castle_part_006_up_r3.mcstructure",
+    "size": 158388,
+    "sha256": "0579e74256f69fc50d99aa5d7cc25dca89e8f82952805467e5dc452f8d81a601"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/structures/infinite_castle/generated_variants/variants.json",
+    "size": 72498,
+    "sha256": "c36160d0e057a015551e985d8d153322cb84a9279c2df47ecaf33298af6d7383"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/structures/infinite_castle/source_parts/castle_part_001.mcstructure",
+    "size": 573281,
+    "sha256": "82febfe46c9db7ca3e5b47e5c0e89f6c9976a28e67b53725019e7b8db2f13d27"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/structures/infinite_castle/source_parts/castle_part_002.mcstructure",
+    "size": 460108,
+    "sha256": "114e2022ab290619b208e67311583d54d341c220b4c6373c07beb6544077fc8e"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/structures/infinite_castle/source_parts/castle_part_003.mcstructure",
+    "size": 227526,
+    "sha256": "e60354e286fdc169ab4dc68e7feaa419a8450fa8a00f8a50e9bf40fbc395f56d"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/structures/infinite_castle/source_parts/castle_part_004.mcstructure",
+    "size": 225357,
+    "sha256": "0ef9a07a0bf623ecbb1f724fde7e237bedb0efe064f409857aaa342f557a9f2c"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/structures/infinite_castle/source_parts/castle_part_005.mcstructure",
+    "size": 158522,
+    "sha256": "a9e5f6e585f3a873f29c89cef4d91614f24ffef91ecf48189de72615ec95b403"
+  },
+  {
+    "path": "behavior_packs/infinite_castle/structures/infinite_castle/source_parts/castle_part_006.mcstructure",
+    "size": 158522,
+    "sha256": "9740c920ccd5173256624d899e5bded08e99062d3cec030421e74237010b8cfd"
+  },
+  {
+    "path": "resource_packs/infinite_castle/manifest.json",
+    "size": 589,
+    "sha256": "93295b2b552b71d9a8d40dc97414a6e1865f6457041315d38c5985581107a36c"
+  },
+  {
+    "path": "resource_packs/infinite_castle/fogs/infinite_castle_sunset.json",
+    "size": 471,
+    "sha256": "00db8060383b107e1758ed19616835fd558681242f7f35c81741b9b313aaa4ec"
+  },
+  {
+    "path": "resource_packs/infinite_castle/particles/shoji_floor_open.particle.json",
+    "size": 1458,
+    "sha256": "4c96bd05f393f8412c887cfaf06cbe7b33c2b4bf2c3b3e9052269533de9be9d8"
+  },
+  {
+    "path": "resource_packs/infinite_castle/sounds/sound_definitions.json",
+    "size": 448,
+    "sha256": "3974b1a0f5c82c221221992739cdc8ed9b2cc54ad27651cfb1ed0b18b13f1ec4"
+  },
+  {
+    "path": "resource_packs/infinite_castle/sounds/infinite_castle/koto_a.ogg",
+    "size": 14222,
+    "sha256": "4ba032eed667a342ca275262ac36c95bad04e9ae453766ff167f7b6dfa3dc5a8"
+  },
+  {
+    "path": "resource_packs/infinite_castle/sounds/infinite_castle/koto_b.ogg",
+    "size": 13813,
+    "sha256": "13ba0891bea58a6c31fd70bcaf2b0ac17fb212661bdf276fc5d7e528f1002f4d"
+  },
+  {
+    "path": "resource_packs/infinite_castle/textures/particle/infinite_castle_shoji_open.png",
+    "size": 128639,
+    "sha256": "af76a2f7d703caca46bfaf0e094d259a36989bb4975fcc9ce11eb5e8e137effc"
+  },
+  {
+    "path": "development/infinite_castle_v3/README.md",
+    "size": 21939,
+    "sha256": "11fe6a98b8d0f34302ed10105786a17c7ce47019cd54926fe09da8febfcc2575"
+  },
+  {
+    "path": "development/infinite_castle_v3/tests/minecraftServerDemoRuntimeStub.js",
+    "size": 2459,
+    "sha256": "111daeabfef42e2a661dc33de1017e386c0d8d8bda86c3fae1b206f8b7674141"
+  },
+  {
+    "path": "development/infinite_castle_v3/tests/sourcePartsDemoProgression.browser.html",
+    "size": 419,
+    "sha256": "dd8e3fb16d5805e630cc7a86195d787a1f2d69f7e69c64cdf3c0e49d797474a3"
+  },
+  {
+    "path": "development/infinite_castle_v3/tests/sourcePartsDemoProgression.test.js",
+    "size": 10414,
+    "sha256": "e28579c9d1f63aba514ac7bb9d574d35d10abb8940322b31633c8f47e3f8e476"
+  },
+  {
+    "path": "development/infinite_castle_v3/tests/sourcePartsDemoRuntime.browser.html",
+    "size": 407,
+    "sha256": "2a3ebc6b8f1aa3d3b9fcf75abcacb55828c9185c2e2c38ba90708504e94689b6"
+  },
+  {
+    "path": "development/infinite_castle_v3/tests/sourcePartsDemoRuntime.integration.browser.html",
+    "size": 4730,
+    "sha256": "6ffcb120df32cbf25fdcd186d6f843eee5ad14293847dcdf1070f8bcb081302d"
+  },
+  {
+    "path": "development/infinite_castle_v3/tests/sourcePartsDemoRuntime.test.js",
+    "size": 8158,
+    "sha256": "b50f20389bcd8049fa6e40acd8a0ee9b751363b1df2049b6ee6fd666647a9fd2"
+  },
+  {
+    "path": "development/infinite_castle_v3/tests/sourcePartsDemoRuntimePlanner.browser.html",
+    "size": 428,
+    "sha256": "473a9b68188df453f864e3e3b1f50511549c9c6c8eb530fe8e7fe080348efa98"
+  },
+  {
+    "path": "development/infinite_castle_v3/tests/sourcePartsDemoRuntimePlanner.test.js",
+    "size": 2839,
+    "sha256": "0f12775933592409ded23edf49d99a6f7c442840a59a9d096b95467c4e627f2b"
+  },
+  {
+    "path": "development/infinite_castle_v3/tests/sourcePartsDemoRuntimeRestore.integration.browser.html",
+    "size": 1397,
+    "sha256": "c7ee8c1c547a570df89829f00aab731845adaa3a5470737172cc9f78c1a191c0"
+  },
+  {
+    "path": "development/infinite_castle_v3/tests/sourcePartsDemoRuntimeRestoreSeed.js",
+    "size": 983,
+    "sha256": "85cd66b626ea9ca6e131bb3364549b58dd4cc5594e3caf32dda796a664101c74"
+  },
+  {
+    "path": "development/infinite_castle_v3/tests/sourcePartsPlanner.test.js",
+    "size": 10575,
+    "sha256": "2f70365573af67b0553236b69615b3e70ea2e67749cc241656484514a8806545"
+  },
+  {
+    "path": "development/infinite_castle_v3/tests/sourcePartsRebuildOptions.test.js",
+    "size": 1419,
+    "sha256": "67840e083bbfa1a9aee0bfca33a83183f0d418a455e6def29b277d8798bc1ae5"
+  },
+  {
+    "path": "development/infinite_castle_v3/tests/sourcePartsStairSmoothing.test.js",
+    "size": 3764,
+    "sha256": "012b7c6097eef11aff726f009e9cf85e6f8aa9be86d140debf7b75352972ed34"
+  },
+  {
+    "path": "development/infinite_castle_v3/tests/sourcePartsVolumes.test.js",
+    "size": 2859,
+    "sha256": "09ac2b7d85f5796de04e2a328270f8032ffa6b09dbc3b1b86deeed7333e860d1"
+  },
+  {
+    "path": "development/infinite_castle_v3/tests/source_parts_stair_structures_test.py",
+    "size": 3777,
+    "sha256": "e7c2f41b872ba8e75acbd754ca48b220d54561795c318ca9768b9ace07160ecb"
+  },
+  {
+    "path": "development/infinite_castle_v3/scripts/infinite_castle/infiniteCastleAtmosphere.js",
+    "size": 1679,
+    "sha256": "c195f7992d7f7e974e7610170a4ca11d2beedd4969ba5fbae8f6ea4b54b2fa6b"
+  },
+  {
+    "path": "development/infinite_castle_v3/scripts/infinite_castle/infiniteCastleManager.js",
+    "size": 70891,
+    "sha256": "a9dc787763702500390756a4555a3fc1b67cff650b16dee2363995ad59f82025"
+  },
+  {
+    "path": "development/infinite_castle_v3/scripts/infinite_castle/sourcePartsConnectionClearance.js",
+    "size": 2667,
+    "sha256": "252086cf515a8e9b519565a375f08cffb34f0a23986853783d50759c567940d2"
+  },
+  {
+    "path": "development/infinite_castle_v3/scripts/infinite_castle/sourcePartsDemoProgression.js",
+    "size": 15434,
+    "sha256": "7416c6f3774219711c64bd0ca6eeab0d84669c4b2e29a48cf188084b5ce7931d"
+  },
+  {
+    "path": "development/infinite_castle_v3/scripts/infinite_castle/sourcePartsDemoProgressionState.js",
+    "size": 7095,
+    "sha256": "232aa6c5738624b3050b5108b005f050f59293f4f5215a4189776231b6cf4486"
+  },
+  {
+    "path": "development/infinite_castle_v3/scripts/infinite_castle/sourcePartsDemoRuntime.js",
+    "size": 16895,
+    "sha256": "16a647f223e93092bf1190870291221e2b22f1ac92471624a89dfd471aa3dc33"
+  },
+  {
+    "path": "development/infinite_castle_v3/scripts/infinite_castle/sourcePartsDemoRuntimePure.js",
+    "size": 13833,
+    "sha256": "6a168ad718621f6549a0563addc4a3010ceb0c140142ba287bd615e02bcfcf95"
+  },
+  {
+    "path": "development/infinite_castle_v3/scripts/infinite_castle/sourcePartsDynamicReconstruction.js",
+    "size": 25943,
+    "sha256": "dc23094faed27e8ce2587f6974d84661f26654b654b15f313b34b088facedc1f"
+  },
+  {
+    "path": "development/infinite_castle_v3/scripts/infinite_castle/sourcePartsGeneratedCatalog.js",
+    "size": 398533,
+    "sha256": "b0422fdc19ac42e9e51f141b15907f0420c376f70d8220e140d4b9c53f9f628d"
+  },
+  {
+    "path": "development/infinite_castle_v3/scripts/infinite_castle/sourcePartsGeneratedCatalog.json",
+    "size": 2390582,
+    "sha256": "f7ac50a8b793244c1fa76ff8ecb901d1e4508841fb4f76e1a570062b7daf8925"
+  },
+  {
+    "path": "development/infinite_castle_v3/scripts/infinite_castle/sourcePartsPlacementIntegrity.js",
+    "size": 9122,
+    "sha256": "78f7ddb42a55432e0451716ae8de06259e209ce07c8d2847379ac8af852448f0"
+  },
+  {
+    "path": "development/infinite_castle_v3/scripts/infinite_castle/sourcePartsPlanner.js",
+    "size": 28242,
+    "sha256": "66e2bef194c8e2c92d4ac3356b76c058e7dba52b04463ea5899910d64a5301ea"
+  },
+  {
+    "path": "development/infinite_castle_v3/scripts/infinite_castle/sourcePartsRebuildOptions.js",
+    "size": 3851,
+    "sha256": "7d5c85d1c9f64dba892d226ed22c5df53558e91255f3b0cf3809ad85a1d28a0e"
+  },
+  {
+    "path": "development/infinite_castle_v3/scripts/infinite_castle/sourcePartsReconstructionV2.js",
+    "size": 67990,
+    "sha256": "cb5e71b14362130c59fb4fe8aae2f363f9452ef136aea699c059cb7b27742c19"
+  },
+  {
+    "path": "development/infinite_castle_v3/scripts/infinite_castle/sourcePartsScenery.js",
+    "size": 18488,
+    "sha256": "58734c6c34555facdaa235d8ec97a2180f9d0eb68f11e34d254b7d1e21e3306b"
+  },
+  {
+    "path": "development/infinite_castle_v3/scripts/infinite_castle/sourcePartsSceneryPlanner.js",
+    "size": 71142,
+    "sha256": "01133b2b9b765d2f6c71296c3dc12603db420852576d927e189bc2abb3294ce3"
+  },
+  {
+    "path": "development/infinite_castle_v3/scripts/infinite_castle/sourcePartsStairSmoothing.js",
+    "size": 6720,
+    "sha256": "a487d5a435dee3946b87e1cdf63eb0865bd7716b7345c011d71124d95d597a84"
+  },
+  {
+    "path": "development/infinite_castle_v3/scripts/infinite_castle/sourcePartsState.js",
+    "size": 2736,
+    "sha256": "2d6aa2a1b3062a95b3ab459d29e1c3caf97efda8451603ee009c4dfcab464364"
+  },
+  {
+    "path": "development/infinite_castle_v3/scripts/infinite_castle/sourcePartsVolumes.js",
+    "size": 6605,
+    "sha256": "683550a9bf9a6d6347ad1c36d37e8ee8a5067ad51ebe5c0ae6d3a4c63a2a4099"
+  },
+  {
+    "path": "development/infinite_castle_v3/structures/infinite_castle/generated_variants/castle_part_001_up_r0.mcstructure",
+    "size": 573196,
+    "sha256": "eee5a7e711b5eaf5f5fe8ab56735ec7c69b903637efda4e4f1cf113b8a88be66"
+  },
+  {
+    "path": "development/infinite_castle_v3/structures/infinite_castle/generated_variants/castle_part_001_up_r1.mcstructure",
+    "size": 573196,
+    "sha256": "0023e3d03a2230440436009cf0c2761675a4fd0feb28fc31ed68f64045b925a0"
+  },
+  {
+    "path": "development/infinite_castle_v3/structures/infinite_castle/generated_variants/castle_part_001_up_r2.mcstructure",
+    "size": 573196,
+    "sha256": "3835e280bfd8bd53bec297eb03d80e5201bc857eb2e20533a54072f7cf6e1de9"
+  },
+  {
+    "path": "development/infinite_castle_v3/structures/infinite_castle/generated_variants/castle_part_001_up_r3.mcstructure",
+    "size": 573196,
+    "sha256": "606c82ec8c47f3e066ab09cf568dea544d57585d9bc2736448b7ba09d238db39"
+  },
+  {
+    "path": "development/infinite_castle_v3/structures/infinite_castle/generated_variants/castle_part_002_east_r2.mcstructure",
+    "size": 460023,
+    "sha256": "047a5c6e116cb2c5b283d879ca8dee51a34cb642c5ff01e054fa7321b57a7c8a"
+  },
+  {
+    "path": "development/infinite_castle_v3/structures/infinite_castle/generated_variants/castle_part_002_south_r2.mcstructure",
+    "size": 460023,
+    "sha256": "cbcc0fc970558c1ae74155bd6e6c95a5adcc080f51efad6f5533fad9471de39b"
+  },
+  {
+    "path": "development/infinite_castle_v3/structures/infinite_castle/generated_variants/castle_part_002_up_r3.mcstructure",
+    "size": 460023,
+    "sha256": "b2a5fff581c0666ceac993e9d68a146543f3fc4e62d3803a1c42e3975784b0ff"
+  },
+  {
+    "path": "development/infinite_castle_v3/structures/infinite_castle/generated_variants/castle_part_003_up_r2.mcstructure",
+    "size": 227524,
+    "sha256": "ee406445c6df7b7abe369221e69925eeadd24d1c510f993360716b488cb94a82"
+  },
+  {
+    "path": "development/infinite_castle_v3/structures/infinite_castle/generated_variants/castle_part_003_up_r3.mcstructure",
+    "size": 227526,
+    "sha256": "51b0922c56c16160b86c26ae0de494cc17dd08e12852238a7e1bf354ccb92724"
+  },
+  {
+    "path": "development/infinite_castle_v3/structures/infinite_castle/generated_variants/castle_part_004_down_r2.mcstructure",
+    "size": 225309,
+    "sha256": "134d66630beee53fa2670a2522b87250cb6da9ce4538520ae96e4af0c9c48d63"
+  },
+  {
+    "path": "development/infinite_castle_v3/structures/infinite_castle/generated_variants/castle_part_004_east_r2.mcstructure",
+    "size": 225309,
+    "sha256": "1b137246c0a0ddd7016ef950e6a1658913c9229664c04a6fe45c2ef5af68d8d1"
+  },
+  {
+    "path": "development/infinite_castle_v3/structures/infinite_castle/generated_variants/castle_part_004_north_r3.mcstructure",
+    "size": 225308,
+    "sha256": "2b308b5491b9b8c4b7973e3eb8b5be9a3f6f66805bc778f1ad711e5c506a7220"
+  },
+  {
+    "path": "development/infinite_castle_v3/structures/infinite_castle/generated_variants/castle_part_004_south_r2.mcstructure",
+    "size": 225308,
+    "sha256": "5b1801f0c2b2d8ab47c83f08f995f98edc9995a709921143a1bbfce492def372"
+  },
+  {
+    "path": "development/infinite_castle_v3/structures/infinite_castle/generated_variants/castle_part_004_up_r3.mcstructure",
+    "size": 225308,
+    "sha256": "23a4bbb7d6c71322c7fc4cfe0f144e92c0f6fd96bc4b0ddc5bc278f621a651b7"
+  },
+  {
+    "path": "development/infinite_castle_v3/structures/infinite_castle/generated_variants/castle_part_004_west_r3.mcstructure",
+    "size": 225308,
+    "sha256": "f419f2ec73896041ea8cfe2fe2eaa94c781b1e1cfa9479621ecb367bc83c0a4e"
+  },
+  {
+    "path": "development/infinite_castle_v3/structures/infinite_castle/generated_variants/castle_part_005_east_r2.mcstructure",
+    "size": 158388,
+    "sha256": "d064d60788ea1611ab51860d9cf385a5ed2e95140aa20c04de5b2c32f95c369e"
+  },
+  {
+    "path": "development/infinite_castle_v3/structures/infinite_castle/generated_variants/castle_part_005_south_r2.mcstructure",
+    "size": 158388,
+    "sha256": "468768075d934314957443ff8ae22536bea6d15ab111f6d39c048425307be2af"
+  },
+  {
+    "path": "development/infinite_castle_v3/structures/infinite_castle/generated_variants/castle_part_005_up_r3.mcstructure",
+    "size": 158388,
+    "sha256": "977a7de24008f4bc81618ded62107414818f2aa6cd5f7cadc3f5a69ba556c92c"
+  },
+  {
+    "path": "development/infinite_castle_v3/structures/infinite_castle/generated_variants/castle_part_006_east_r2.mcstructure",
+    "size": 158388,
+    "sha256": "982a12049632ed6b712cd66504f2a6182495d0f58a98bc61fecfb08e87c2fac2"
+  },
+  {
+    "path": "development/infinite_castle_v3/structures/infinite_castle/generated_variants/castle_part_006_south_r2.mcstructure",
+    "size": 158388,
+    "sha256": "e8ac84c5a2af23fdde4cafbde6b956cf2fd6e66862b5bf3d1a46e6635937394c"
+  },
+  {
+    "path": "development/infinite_castle_v3/structures/infinite_castle/generated_variants/castle_part_006_up_r3.mcstructure",
+    "size": 158388,
+    "sha256": "0579e74256f69fc50d99aa5d7cc25dca89e8f82952805467e5dc452f8d81a601"
+  },
+  {
+    "path": "development/infinite_castle_v3/structures/infinite_castle/generated_variants/variants.json",
+    "size": 72498,
+    "sha256": "c36160d0e057a015551e985d8d153322cb84a9279c2df47ecaf33298af6d7383"
+  },
+  {
+    "path": "development/infinite_castle_rp_v3/fogs/infinite_castle_sunset.json",
+    "size": 471,
+    "sha256": "00db8060383b107e1758ed19616835fd558681242f7f35c81741b9b313aaa4ec"
+  }
+]

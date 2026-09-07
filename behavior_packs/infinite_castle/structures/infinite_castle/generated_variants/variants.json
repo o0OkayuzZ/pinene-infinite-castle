@@ -1,0 +1,3063 @@
+{
+  "schema_version": 2,
+  "variants": [
+    {
+      "id": "castle_part_001_up_r0",
+      "source": "castle_part_001",
+      "display_name": "交差廊下",
+      "category": "crossroads",
+      "source_hash": "4137f377c3366fcde25c2e647340aa191e0075b7b4d0200bc9ebfb1841aee213",
+      "floor_normal": "up",
+      "yaw_quarter_turns": 0,
+      "angles": [
+        0,
+        180,
+        0
+      ],
+      "size": [
+        48,
+        31,
+        48
+      ],
+      "file_hash": "eee5a7e711b5eaf5f5fe8ab56735ec7c69b903637efda4e4f1cf113b8a88be66",
+      "content_hash": "2b7a88b5f43cfd196bfc575f51f1eb799209b0d842b3a370dd351f0da59cf004",
+      "solid_block_count": 10365,
+      "sockets": [
+        {
+          "direction": "south",
+          "local_position": [
+            31,
+            23,
+            47
+          ],
+          "floor_normal": "up",
+          "opening": {
+            "width": 4,
+            "height": 4
+          },
+          "confidence": 1,
+          "evidence": {
+            "walkable_component": 4,
+            "component_size": 103,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 4,
+            "walkable_position": [
+              31,
+              23,
+              47
+            ],
+            "base_confidence": 0.9766,
+            "consistency_bonus": 0.075,
+            "walkable_lanes": [
+              [
+                33,
+                23,
+                47
+              ],
+              [
+                32,
+                23,
+                47
+              ],
+              [
+                31,
+                23,
+                47
+              ],
+              [
+                30,
+                23,
+                47
+              ]
+            ]
+          }
+        },
+        {
+          "direction": "north",
+          "local_position": [
+            19,
+            18,
+            0
+          ],
+          "floor_normal": "up",
+          "opening": {
+            "width": 2,
+            "height": 4
+          },
+          "confidence": 0.9776,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 456,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 2,
+            "walkable_position": [
+              19,
+              18,
+              0
+            ],
+            "base_confidence": 0.9026,
+            "consistency_bonus": 0.075,
+            "walkable_lanes": [
+              [
+                20,
+                18,
+                0
+              ],
+              [
+                19,
+                18,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "direction": "east",
+          "local_position": [
+            47,
+            23,
+            31
+          ],
+          "floor_normal": "up",
+          "opening": {
+            "width": 4,
+            "height": 4
+          },
+          "confidence": 1,
+          "evidence": {
+            "walkable_component": 4,
+            "component_size": 103,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 4,
+            "walkable_position": [
+              47,
+              23,
+              31
+            ],
+            "base_confidence": 0.9766,
+            "consistency_bonus": 0.075,
+            "walkable_lanes": [
+              [
+                47,
+                23,
+                33
+              ],
+              [
+                47,
+                23,
+                32
+              ],
+              [
+                47,
+                23,
+                31
+              ],
+              [
+                47,
+                23,
+                30
+              ]
+            ]
+          }
+        },
+        {
+          "direction": "west",
+          "local_position": [
+            0,
+            18,
+            19
+          ],
+          "floor_normal": "up",
+          "opening": {
+            "width": 2,
+            "height": 4
+          },
+          "confidence": 0.9776,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 456,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 2,
+            "walkable_position": [
+              0,
+              18,
+              19
+            ],
+            "base_confidence": 0.9026,
+            "consistency_bonus": 0.075,
+            "walkable_lanes": [
+              [
+                0,
+                18,
+                20
+              ],
+              [
+                0,
+                18,
+                19
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "castle_part_001_up_r1",
+      "source": "castle_part_001",
+      "display_name": "交差廊下",
+      "category": "crossroads",
+      "source_hash": "4137f377c3366fcde25c2e647340aa191e0075b7b4d0200bc9ebfb1841aee213",
+      "floor_normal": "up",
+      "yaw_quarter_turns": 1,
+      "angles": [
+        0,
+        270,
+        0
+      ],
+      "size": [
+        48,
+        31,
+        48
+      ],
+      "file_hash": "0023e3d03a2230440436009cf0c2761675a4fd0feb28fc31ed68f64045b925a0",
+      "content_hash": "16fd4e367a110e66a1d63d24bc0e1cf7f2819a9612c2d0defc946a93936740de",
+      "solid_block_count": 10365,
+      "sockets": [
+        {
+          "direction": "east",
+          "local_position": [
+            47,
+            23,
+            16
+          ],
+          "floor_normal": "up",
+          "opening": {
+            "width": 4,
+            "height": 4
+          },
+          "confidence": 1,
+          "evidence": {
+            "walkable_component": 4,
+            "component_size": 103,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 4,
+            "walkable_position": [
+              47,
+              23,
+              16
+            ],
+            "base_confidence": 0.9766,
+            "consistency_bonus": 0.075,
+            "walkable_lanes": [
+              [
+                47,
+                23,
+                14
+              ],
+              [
+                47,
+                23,
+                15
+              ],
+              [
+                47,
+                23,
+                16
+              ],
+              [
+                47,
+                23,
+                17
+              ]
+            ]
+          }
+        },
+        {
+          "direction": "west",
+          "local_position": [
+            0,
+            18,
+            28
+          ],
+          "floor_normal": "up",
+          "opening": {
+            "width": 2,
+            "height": 4
+          },
+          "confidence": 0.9776,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 456,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 2,
+            "walkable_position": [
+              0,
+              18,
+              28
+            ],
+            "base_confidence": 0.9026,
+            "consistency_bonus": 0.075,
+            "walkable_lanes": [
+              [
+                0,
+                18,
+                27
+              ],
+              [
+                0,
+                18,
+                28
+              ]
+            ]
+          }
+        },
+        {
+          "direction": "north",
+          "local_position": [
+            31,
+            23,
+            0
+          ],
+          "floor_normal": "up",
+          "opening": {
+            "width": 4,
+            "height": 4
+          },
+          "confidence": 1,
+          "evidence": {
+            "walkable_component": 4,
+            "component_size": 103,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 4,
+            "walkable_position": [
+              31,
+              23,
+              0
+            ],
+            "base_confidence": 0.9766,
+            "consistency_bonus": 0.075,
+            "walkable_lanes": [
+              [
+                33,
+                23,
+                0
+              ],
+              [
+                32,
+                23,
+                0
+              ],
+              [
+                31,
+                23,
+                0
+              ],
+              [
+                30,
+                23,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "direction": "south",
+          "local_position": [
+            19,
+            18,
+            47
+          ],
+          "floor_normal": "up",
+          "opening": {
+            "width": 2,
+            "height": 4
+          },
+          "confidence": 0.9776,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 456,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 2,
+            "walkable_position": [
+              19,
+              18,
+              47
+            ],
+            "base_confidence": 0.9026,
+            "consistency_bonus": 0.075,
+            "walkable_lanes": [
+              [
+                20,
+                18,
+                47
+              ],
+              [
+                19,
+                18,
+                47
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "castle_part_001_up_r2",
+      "source": "castle_part_001",
+      "display_name": "交差廊下",
+      "category": "crossroads",
+      "source_hash": "4137f377c3366fcde25c2e647340aa191e0075b7b4d0200bc9ebfb1841aee213",
+      "floor_normal": "up",
+      "yaw_quarter_turns": 2,
+      "angles": [
+        0,
+        90,
+        0
+      ],
+      "size": [
+        48,
+        31,
+        48
+      ],
+      "file_hash": "3835e280bfd8bd53bec297eb03d80e5201bc857eb2e20533a54072f7cf6e1de9",
+      "content_hash": "35fa1478d42df11be40f40b25e6b00459c46fbad5125d54287a49abab1e07472",
+      "solid_block_count": 10365,
+      "sockets": [
+        {
+          "direction": "west",
+          "local_position": [
+            0,
+            23,
+            31
+          ],
+          "floor_normal": "up",
+          "opening": {
+            "width": 4,
+            "height": 4
+          },
+          "confidence": 1,
+          "evidence": {
+            "walkable_component": 4,
+            "component_size": 103,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 4,
+            "walkable_position": [
+              0,
+              23,
+              31
+            ],
+            "base_confidence": 0.9766,
+            "consistency_bonus": 0.075,
+            "walkable_lanes": [
+              [
+                0,
+                23,
+                33
+              ],
+              [
+                0,
+                23,
+                32
+              ],
+              [
+                0,
+                23,
+                31
+              ],
+              [
+                0,
+                23,
+                30
+              ]
+            ]
+          }
+        },
+        {
+          "direction": "east",
+          "local_position": [
+            47,
+            18,
+            19
+          ],
+          "floor_normal": "up",
+          "opening": {
+            "width": 2,
+            "height": 4
+          },
+          "confidence": 0.9776,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 456,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 2,
+            "walkable_position": [
+              47,
+              18,
+              19
+            ],
+            "base_confidence": 0.9026,
+            "consistency_bonus": 0.075,
+            "walkable_lanes": [
+              [
+                47,
+                18,
+                20
+              ],
+              [
+                47,
+                18,
+                19
+              ]
+            ]
+          }
+        },
+        {
+          "direction": "south",
+          "local_position": [
+            16,
+            23,
+            47
+          ],
+          "floor_normal": "up",
+          "opening": {
+            "width": 4,
+            "height": 4
+          },
+          "confidence": 1,
+          "evidence": {
+            "walkable_component": 4,
+            "component_size": 103,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 4,
+            "walkable_position": [
+              16,
+              23,
+              47
+            ],
+            "base_confidence": 0.9766,
+            "consistency_bonus": 0.075,
+            "walkable_lanes": [
+              [
+                14,
+                23,
+                47
+              ],
+              [
+                15,
+                23,
+                47
+              ],
+              [
+                16,
+                23,
+                47
+              ],
+              [
+                17,
+                23,
+                47
+              ]
+            ]
+          }
+        },
+        {
+          "direction": "north",
+          "local_position": [
+            28,
+            18,
+            0
+          ],
+          "floor_normal": "up",
+          "opening": {
+            "width": 2,
+            "height": 4
+          },
+          "confidence": 0.9776,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 456,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 2,
+            "walkable_position": [
+              28,
+              18,
+              0
+            ],
+            "base_confidence": 0.9026,
+            "consistency_bonus": 0.075,
+            "walkable_lanes": [
+              [
+                27,
+                18,
+                0
+              ],
+              [
+                28,
+                18,
+                0
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "castle_part_001_up_r3",
+      "source": "castle_part_001",
+      "display_name": "交差廊下",
+      "category": "crossroads",
+      "source_hash": "4137f377c3366fcde25c2e647340aa191e0075b7b4d0200bc9ebfb1841aee213",
+      "floor_normal": "up",
+      "yaw_quarter_turns": 3,
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        48,
+        31,
+        48
+      ],
+      "file_hash": "606c82ec8c47f3e066ab09cf568dea544d57585d9bc2736448b7ba09d238db39",
+      "content_hash": "dfbbf9615e1fcf2856637fbda53a6b47b9c604b82bfce45861f8c36bd4bb94e5",
+      "solid_block_count": 10365,
+      "sockets": [
+        {
+          "direction": "north",
+          "local_position": [
+            16,
+            23,
+            0
+          ],
+          "floor_normal": "up",
+          "opening": {
+            "width": 4,
+            "height": 4
+          },
+          "confidence": 1,
+          "evidence": {
+            "walkable_component": 4,
+            "component_size": 103,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 4,
+            "walkable_position": [
+              16,
+              23,
+              0
+            ],
+            "base_confidence": 0.9766,
+            "consistency_bonus": 0.075,
+            "walkable_lanes": [
+              [
+                14,
+                23,
+                0
+              ],
+              [
+                15,
+                23,
+                0
+              ],
+              [
+                16,
+                23,
+                0
+              ],
+              [
+                17,
+                23,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "direction": "south",
+          "local_position": [
+            28,
+            18,
+            47
+          ],
+          "floor_normal": "up",
+          "opening": {
+            "width": 2,
+            "height": 4
+          },
+          "confidence": 0.9776,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 456,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 2,
+            "walkable_position": [
+              28,
+              18,
+              47
+            ],
+            "base_confidence": 0.9026,
+            "consistency_bonus": 0.075,
+            "walkable_lanes": [
+              [
+                27,
+                18,
+                47
+              ],
+              [
+                28,
+                18,
+                47
+              ]
+            ]
+          }
+        },
+        {
+          "direction": "west",
+          "local_position": [
+            0,
+            23,
+            16
+          ],
+          "floor_normal": "up",
+          "opening": {
+            "width": 4,
+            "height": 4
+          },
+          "confidence": 1,
+          "evidence": {
+            "walkable_component": 4,
+            "component_size": 103,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 4,
+            "walkable_position": [
+              0,
+              23,
+              16
+            ],
+            "base_confidence": 0.9766,
+            "consistency_bonus": 0.075,
+            "walkable_lanes": [
+              [
+                0,
+                23,
+                14
+              ],
+              [
+                0,
+                23,
+                15
+              ],
+              [
+                0,
+                23,
+                16
+              ],
+              [
+                0,
+                23,
+                17
+              ]
+            ]
+          }
+        },
+        {
+          "direction": "east",
+          "local_position": [
+            47,
+            18,
+            28
+          ],
+          "floor_normal": "up",
+          "opening": {
+            "width": 2,
+            "height": 4
+          },
+          "confidence": 0.9776,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 456,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 2,
+            "walkable_position": [
+              47,
+              18,
+              28
+            ],
+            "base_confidence": 0.9026,
+            "consistency_bonus": 0.075,
+            "walkable_lanes": [
+              [
+                47,
+                18,
+                27
+              ],
+              [
+                47,
+                18,
+                28
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "castle_part_002_up_r3",
+      "source": "castle_part_002",
+      "display_name": "部屋１",
+      "category": "room",
+      "source_hash": "8e8719459a0100d70330241e92670e1aeaec5821d20cd8ef8e72f04a90aa74d3",
+      "floor_normal": "up",
+      "yaw_quarter_turns": 3,
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        43,
+        31,
+        43
+      ],
+      "file_hash": "b2a5fff581c0666ceac993e9d68a146543f3fc4e62d3803a1c42e3975784b0ff",
+      "content_hash": "b55d3a0da9e3c8e262fbf75ce5e616e78b0473879efec823897c0bc87c3b6750",
+      "solid_block_count": 8142,
+      "sockets": [
+        {
+          "direction": "north",
+          "local_position": [
+            20,
+            1,
+            5
+          ],
+          "floor_normal": "up",
+          "opening": {
+            "width": 2,
+            "height": 4
+          },
+          "confidence": 0.9516,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 825,
+            "depth_from_bounds": 6,
+            "walkable_run_width": 2,
+            "walkable_position": [
+              20,
+              1,
+              6
+            ],
+            "base_confidence": 0.8016,
+            "consistency_bonus": 0.15,
+            "walkable_lanes": [
+              [
+                19,
+                1,
+                6
+              ],
+              [
+                20,
+                1,
+                6
+              ]
+            ]
+          }
+        },
+        {
+          "direction": "south",
+          "local_position": [
+            20,
+            1,
+            37
+          ],
+          "floor_normal": "up",
+          "opening": {
+            "width": 2,
+            "height": 4
+          },
+          "confidence": 0.9516,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 825,
+            "depth_from_bounds": 6,
+            "walkable_run_width": 2,
+            "walkable_position": [
+              20,
+              1,
+              36
+            ],
+            "base_confidence": 0.8016,
+            "consistency_bonus": 0.15,
+            "walkable_lanes": [
+              [
+                19,
+                1,
+                36
+              ],
+              [
+                20,
+                1,
+                36
+              ]
+            ]
+          }
+        },
+        {
+          "direction": "west",
+          "local_position": [
+            5,
+            1,
+            20
+          ],
+          "floor_normal": "up",
+          "opening": {
+            "width": 2,
+            "height": 4
+          },
+          "confidence": 0.9516,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 825,
+            "depth_from_bounds": 6,
+            "walkable_run_width": 2,
+            "walkable_position": [
+              6,
+              1,
+              20
+            ],
+            "base_confidence": 0.8016,
+            "consistency_bonus": 0.15,
+            "walkable_lanes": [
+              [
+                6,
+                1,
+                19
+              ],
+              [
+                6,
+                1,
+                20
+              ]
+            ]
+          }
+        },
+        {
+          "direction": "east",
+          "local_position": [
+            37,
+            1,
+            20
+          ],
+          "floor_normal": "up",
+          "opening": {
+            "width": 2,
+            "height": 4
+          },
+          "confidence": 0.9516,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 825,
+            "depth_from_bounds": 6,
+            "walkable_run_width": 2,
+            "walkable_position": [
+              36,
+              1,
+              20
+            ],
+            "base_confidence": 0.8016,
+            "consistency_bonus": 0.15,
+            "walkable_lanes": [
+              [
+                36,
+                1,
+                19
+              ],
+              [
+                36,
+                1,
+                20
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "castle_part_002_south_r2",
+      "source": "castle_part_002",
+      "display_name": "部屋１",
+      "category": "room",
+      "source_hash": "8e8719459a0100d70330241e92670e1aeaec5821d20cd8ef8e72f04a90aa74d3",
+      "floor_normal": "south",
+      "yaw_quarter_turns": 2,
+      "angles": [
+        90,
+        0,
+        90
+      ],
+      "size": [
+        43,
+        43,
+        31
+      ],
+      "file_hash": "cbcc0fc970558c1ae74155bd6e6c95a5adcc080f51efad6f5533fad9471de39b",
+      "content_hash": "c3048d9d6f99857e488e7609401891241838815962ea30fcff1ad544ca7287fb",
+      "solid_block_count": 8142,
+      "sockets": [
+        {
+          "direction": "west",
+          "local_position": [
+            5,
+            20,
+            1
+          ],
+          "floor_normal": "south",
+          "opening": {
+            "width": 2,
+            "height": 4
+          },
+          "confidence": 0.9516,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 825,
+            "depth_from_bounds": 6,
+            "walkable_run_width": 2,
+            "walkable_position": [
+              6,
+              20,
+              1
+            ],
+            "base_confidence": 0.8016,
+            "consistency_bonus": 0.15,
+            "walkable_lanes": [
+              [
+                6,
+                19,
+                1
+              ],
+              [
+                6,
+                20,
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "direction": "east",
+          "local_position": [
+            37,
+            20,
+            1
+          ],
+          "floor_normal": "south",
+          "opening": {
+            "width": 2,
+            "height": 4
+          },
+          "confidence": 0.9516,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 825,
+            "depth_from_bounds": 6,
+            "walkable_run_width": 2,
+            "walkable_position": [
+              36,
+              20,
+              1
+            ],
+            "base_confidence": 0.8016,
+            "consistency_bonus": 0.15,
+            "walkable_lanes": [
+              [
+                36,
+                19,
+                1
+              ],
+              [
+                36,
+                20,
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "direction": "down",
+          "local_position": [
+            20,
+            5,
+            1
+          ],
+          "floor_normal": "south",
+          "opening": {
+            "width": 2,
+            "height": 4
+          },
+          "confidence": 0.9516,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 825,
+            "depth_from_bounds": 6,
+            "walkable_run_width": 2,
+            "walkable_position": [
+              20,
+              6,
+              1
+            ],
+            "base_confidence": 0.8016,
+            "consistency_bonus": 0.15,
+            "walkable_lanes": [
+              [
+                19,
+                6,
+                1
+              ],
+              [
+                20,
+                6,
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "direction": "up",
+          "local_position": [
+            20,
+            37,
+            1
+          ],
+          "floor_normal": "south",
+          "opening": {
+            "width": 2,
+            "height": 4
+          },
+          "confidence": 0.9516,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 825,
+            "depth_from_bounds": 6,
+            "walkable_run_width": 2,
+            "walkable_position": [
+              20,
+              36,
+              1
+            ],
+            "base_confidence": 0.8016,
+            "consistency_bonus": 0.15,
+            "walkable_lanes": [
+              [
+                19,
+                36,
+                1
+              ],
+              [
+                20,
+                36,
+                1
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "castle_part_002_east_r2",
+      "source": "castle_part_002",
+      "display_name": "部屋１",
+      "category": "room",
+      "source_hash": "8e8719459a0100d70330241e92670e1aeaec5821d20cd8ef8e72f04a90aa74d3",
+      "floor_normal": "east",
+      "yaw_quarter_turns": 2,
+      "angles": [
+        0,
+        270,
+        270
+      ],
+      "size": [
+        31,
+        43,
+        43
+      ],
+      "file_hash": "047a5c6e116cb2c5b283d879ca8dee51a34cb642c5ff01e054fa7321b57a7c8a",
+      "content_hash": "bf11feef5a1ef3b342ba8e1d82b7e730f5244d80414b7b172a4f35d846e88f1f",
+      "solid_block_count": 8142,
+      "sockets": [
+        {
+          "direction": "down",
+          "local_position": [
+            1,
+            5,
+            20
+          ],
+          "floor_normal": "east",
+          "opening": {
+            "width": 2,
+            "height": 4
+          },
+          "confidence": 0.9516,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 825,
+            "depth_from_bounds": 6,
+            "walkable_run_width": 2,
+            "walkable_position": [
+              1,
+              6,
+              20
+            ],
+            "base_confidence": 0.8016,
+            "consistency_bonus": 0.15,
+            "walkable_lanes": [
+              [
+                1,
+                6,
+                19
+              ],
+              [
+                1,
+                6,
+                20
+              ]
+            ]
+          }
+        },
+        {
+          "direction": "up",
+          "local_position": [
+            1,
+            37,
+            20
+          ],
+          "floor_normal": "east",
+          "opening": {
+            "width": 2,
+            "height": 4
+          },
+          "confidence": 0.9516,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 825,
+            "depth_from_bounds": 6,
+            "walkable_run_width": 2,
+            "walkable_position": [
+              1,
+              36,
+              20
+            ],
+            "base_confidence": 0.8016,
+            "consistency_bonus": 0.15,
+            "walkable_lanes": [
+              [
+                1,
+                36,
+                19
+              ],
+              [
+                1,
+                36,
+                20
+              ]
+            ]
+          }
+        },
+        {
+          "direction": "north",
+          "local_position": [
+            1,
+            20,
+            5
+          ],
+          "floor_normal": "east",
+          "opening": {
+            "width": 2,
+            "height": 4
+          },
+          "confidence": 0.9516,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 825,
+            "depth_from_bounds": 6,
+            "walkable_run_width": 2,
+            "walkable_position": [
+              1,
+              20,
+              6
+            ],
+            "base_confidence": 0.8016,
+            "consistency_bonus": 0.15,
+            "walkable_lanes": [
+              [
+                1,
+                19,
+                6
+              ],
+              [
+                1,
+                20,
+                6
+              ]
+            ]
+          }
+        },
+        {
+          "direction": "south",
+          "local_position": [
+            1,
+            20,
+            37
+          ],
+          "floor_normal": "east",
+          "opening": {
+            "width": 2,
+            "height": 4
+          },
+          "confidence": 0.9516,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 825,
+            "depth_from_bounds": 6,
+            "walkable_run_width": 2,
+            "walkable_position": [
+              1,
+              20,
+              36
+            ],
+            "base_confidence": 0.8016,
+            "consistency_bonus": 0.15,
+            "walkable_lanes": [
+              [
+                1,
+                19,
+                36
+              ],
+              [
+                1,
+                20,
+                36
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "castle_part_003_up_r2",
+      "source": "castle_part_003",
+      "display_name": "渡り廊下",
+      "category": "bridge",
+      "source_hash": "b42695d4b7e537ccc37f637768543129c12be132bcbbbccc0a64031593a9c07f",
+      "floor_normal": "up",
+      "yaw_quarter_turns": 2,
+      "angles": [
+        0,
+        90,
+        0
+      ],
+      "size": [
+        19,
+        31,
+        48
+      ],
+      "file_hash": "ee406445c6df7b7abe369221e69925eeadd24d1c510f993360716b488cb94a82",
+      "content_hash": "50945e9f8dda34f95bf438e6a31a0f1b926754d829e156dacd885091374845c0",
+      "solid_block_count": 5548,
+      "sockets": [
+        {
+          "direction": "south",
+          "local_position": [
+            2,
+            23,
+            47
+          ],
+          "floor_normal": "up",
+          "opening": {
+            "width": 4,
+            "height": 4
+          },
+          "confidence": 1,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 160,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 4,
+            "walkable_position": [
+              2,
+              23,
+              47
+            ],
+            "base_confidence": 0.9781,
+            "consistency_bonus": 0.03,
+            "walkable_lanes": [
+              [
+                0,
+                23,
+                47
+              ],
+              [
+                1,
+                23,
+                47
+              ],
+              [
+                2,
+                23,
+                47
+              ],
+              [
+                3,
+                23,
+                47
+              ]
+            ]
+          }
+        },
+        {
+          "direction": "north",
+          "local_position": [
+            5,
+            18,
+            0
+          ],
+          "floor_normal": "up",
+          "opening": {
+            "width": 2,
+            "height": 4
+          },
+          "confidence": 0.9342,
+          "evidence": {
+            "walkable_component": 2,
+            "component_size": 128,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 2,
+            "walkable_position": [
+              5,
+              18,
+              0
+            ],
+            "base_confidence": 0.9042,
+            "consistency_bonus": 0.03,
+            "walkable_lanes": [
+              [
+                4,
+                18,
+                0
+              ],
+              [
+                5,
+                18,
+                0
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "castle_part_003_up_r3",
+      "source": "castle_part_003",
+      "display_name": "渡り廊下",
+      "category": "bridge",
+      "source_hash": "b42695d4b7e537ccc37f637768543129c12be132bcbbbccc0a64031593a9c07f",
+      "floor_normal": "up",
+      "yaw_quarter_turns": 3,
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        48,
+        31,
+        19
+      ],
+      "file_hash": "51b0922c56c16160b86c26ae0de494cc17dd08e12852238a7e1bf354ccb92724",
+      "content_hash": "c62f181b6c7c634ed78f30489372172f57e1013f0fad87e3ecfb3186cb79ff4f",
+      "solid_block_count": 5548,
+      "sockets": [
+        {
+          "direction": "west",
+          "local_position": [
+            0,
+            23,
+            2
+          ],
+          "floor_normal": "up",
+          "opening": {
+            "width": 4,
+            "height": 4
+          },
+          "confidence": 1,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 160,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 4,
+            "walkable_position": [
+              0,
+              23,
+              2
+            ],
+            "base_confidence": 0.9781,
+            "consistency_bonus": 0.03,
+            "walkable_lanes": [
+              [
+                0,
+                23,
+                0
+              ],
+              [
+                0,
+                23,
+                1
+              ],
+              [
+                0,
+                23,
+                2
+              ],
+              [
+                0,
+                23,
+                3
+              ]
+            ]
+          }
+        },
+        {
+          "direction": "east",
+          "local_position": [
+            47,
+            18,
+            5
+          ],
+          "floor_normal": "up",
+          "opening": {
+            "width": 2,
+            "height": 4
+          },
+          "confidence": 0.9342,
+          "evidence": {
+            "walkable_component": 2,
+            "component_size": 128,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 2,
+            "walkable_position": [
+              47,
+              18,
+              5
+            ],
+            "base_confidence": 0.9042,
+            "consistency_bonus": 0.03,
+            "walkable_lanes": [
+              [
+                47,
+                18,
+                4
+              ],
+              [
+                47,
+                18,
+                5
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "castle_part_004_up_r3",
+      "source": "castle_part_004",
+      "display_name": "階段１",
+      "category": "stairs",
+      "source_hash": "28215a699bd6b95586b41995ff12505a3f0793f798b33671f992da63708689cd",
+      "floor_normal": "up",
+      "yaw_quarter_turns": 3,
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        13,
+        48,
+        45
+      ],
+      "file_hash": "23a4bbb7d6c71322c7fc4cfe0f144e92c0f6fd96bc4b0ddc5bc278f621a651b7",
+      "content_hash": "2c12a60a8277c8291c8f54bd34840676af83cba035dd9078a03d6a6f2a1d8832",
+      "solid_block_count": 893,
+      "sockets": [
+        {
+          "direction": "north",
+          "local_position": [
+            6,
+            44,
+            2
+          ],
+          "floor_normal": "up",
+          "opening": {
+            "width": 5,
+            "height": 4
+          },
+          "confidence": 0.9154,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 462,
+            "depth_from_bounds": 3,
+            "walkable_run_width": 11,
+            "walkable_position": [
+              6,
+              44,
+              3
+            ],
+            "base_confidence": 0.8154,
+            "consistency_bonus": 0.1,
+            "walkable_lanes": [
+              [
+                4,
+                44,
+                3
+              ],
+              [
+                5,
+                44,
+                3
+              ],
+              [
+                6,
+                44,
+                3
+              ],
+              [
+                7,
+                44,
+                3
+              ],
+              [
+                8,
+                44,
+                3
+              ]
+            ]
+          }
+        },
+        {
+          "direction": "south",
+          "local_position": [
+            6,
+            3,
+            44
+          ],
+          "floor_normal": "up",
+          "opening": {
+            "width": 5,
+            "height": 4
+          },
+          "confidence": 1,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 462,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 11,
+            "walkable_position": [
+              6,
+              3,
+              44
+            ],
+            "base_confidence": 1.0,
+            "consistency_bonus": 0.1,
+            "walkable_lanes": [
+              [
+                4,
+                3,
+                44
+              ],
+              [
+                5,
+                3,
+                44
+              ],
+              [
+                6,
+                3,
+                44
+              ],
+              [
+                7,
+                3,
+                44
+              ],
+              [
+                8,
+                3,
+                44
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "castle_part_004_down_r2",
+      "source": "castle_part_004",
+      "display_name": "階段１",
+      "category": "stairs",
+      "source_hash": "28215a699bd6b95586b41995ff12505a3f0793f798b33671f992da63708689cd",
+      "floor_normal": "down",
+      "yaw_quarter_turns": 2,
+      "angles": [
+        0,
+        270,
+        180
+      ],
+      "size": [
+        45,
+        48,
+        13
+      ],
+      "file_hash": "134d66630beee53fa2670a2522b87250cb6da9ce4538520ae96e4af0c9c48d63",
+      "content_hash": "f07ea018db54e6921c2cf35ff7ef33d22fbdc07a839e8feb340d873cbbf800a3",
+      "solid_block_count": 893,
+      "sockets": [
+        {
+          "direction": "west",
+          "local_position": [
+            2,
+            3,
+            6
+          ],
+          "floor_normal": "down",
+          "opening": {
+            "width": 5,
+            "height": 4
+          },
+          "confidence": 0.9154,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 462,
+            "depth_from_bounds": 3,
+            "walkable_run_width": 11,
+            "walkable_position": [
+              3,
+              3,
+              6
+            ],
+            "base_confidence": 0.8154,
+            "consistency_bonus": 0.1,
+            "walkable_lanes": [
+              [
+                3,
+                3,
+                4
+              ],
+              [
+                3,
+                3,
+                5
+              ],
+              [
+                3,
+                3,
+                6
+              ],
+              [
+                3,
+                3,
+                7
+              ],
+              [
+                3,
+                3,
+                8
+              ]
+            ]
+          }
+        },
+        {
+          "direction": "east",
+          "local_position": [
+            44,
+            44,
+            6
+          ],
+          "floor_normal": "down",
+          "opening": {
+            "width": 5,
+            "height": 4
+          },
+          "confidence": 1,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 462,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 11,
+            "walkable_position": [
+              44,
+              44,
+              6
+            ],
+            "base_confidence": 1.0,
+            "consistency_bonus": 0.1,
+            "walkable_lanes": [
+              [
+                44,
+                44,
+                4
+              ],
+              [
+                44,
+                44,
+                5
+              ],
+              [
+                44,
+                44,
+                6
+              ],
+              [
+                44,
+                44,
+                7
+              ],
+              [
+                44,
+                44,
+                8
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "castle_part_004_north_r3",
+      "source": "castle_part_004",
+      "display_name": "階段１",
+      "category": "stairs",
+      "source_hash": "28215a699bd6b95586b41995ff12505a3f0793f798b33671f992da63708689cd",
+      "floor_normal": "north",
+      "yaw_quarter_turns": 3,
+      "angles": [
+        90,
+        180,
+        180
+      ],
+      "size": [
+        13,
+        45,
+        48
+      ],
+      "file_hash": "2b308b5491b9b8c4b7973e3eb8b5be9a3f6f66805bc778f1ad711e5c506a7220",
+      "content_hash": "0c2e4e62fd75d28969dbecc7c201462df401e0d5adfc0c18f3e47315f76f68ea",
+      "solid_block_count": 893,
+      "sockets": [
+        {
+          "direction": "down",
+          "local_position": [
+            6,
+            2,
+            3
+          ],
+          "floor_normal": "north",
+          "opening": {
+            "width": 5,
+            "height": 4
+          },
+          "confidence": 0.9154,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 462,
+            "depth_from_bounds": 3,
+            "walkable_run_width": 11,
+            "walkable_position": [
+              6,
+              3,
+              3
+            ],
+            "base_confidence": 0.8154,
+            "consistency_bonus": 0.1,
+            "walkable_lanes": [
+              [
+                4,
+                3,
+                3
+              ],
+              [
+                5,
+                3,
+                3
+              ],
+              [
+                6,
+                3,
+                3
+              ],
+              [
+                7,
+                3,
+                3
+              ],
+              [
+                8,
+                3,
+                3
+              ]
+            ]
+          }
+        },
+        {
+          "direction": "up",
+          "local_position": [
+            6,
+            44,
+            44
+          ],
+          "floor_normal": "north",
+          "opening": {
+            "width": 5,
+            "height": 4
+          },
+          "confidence": 1,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 462,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 11,
+            "walkable_position": [
+              6,
+              44,
+              44
+            ],
+            "base_confidence": 1.0,
+            "consistency_bonus": 0.1,
+            "walkable_lanes": [
+              [
+                4,
+                44,
+                44
+              ],
+              [
+                5,
+                44,
+                44
+              ],
+              [
+                6,
+                44,
+                44
+              ],
+              [
+                7,
+                44,
+                44
+              ],
+              [
+                8,
+                44,
+                44
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "castle_part_004_south_r2",
+      "source": "castle_part_004",
+      "display_name": "階段１",
+      "category": "stairs",
+      "source_hash": "28215a699bd6b95586b41995ff12505a3f0793f798b33671f992da63708689cd",
+      "floor_normal": "south",
+      "yaw_quarter_turns": 2,
+      "angles": [
+        90,
+        0,
+        90
+      ],
+      "size": [
+        45,
+        13,
+        48
+      ],
+      "file_hash": "5b1801f0c2b2d8ab47c83f08f995f98edc9995a709921143a1bbfce492def372",
+      "content_hash": "76ee97b67e9e2bb96171fa7f7acc1f6ecb5e035b4a149c187710010cf7a243b1",
+      "solid_block_count": 893,
+      "sockets": [
+        {
+          "direction": "west",
+          "local_position": [
+            2,
+            6,
+            44
+          ],
+          "floor_normal": "south",
+          "opening": {
+            "width": 5,
+            "height": 4
+          },
+          "confidence": 0.9154,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 462,
+            "depth_from_bounds": 3,
+            "walkable_run_width": 11,
+            "walkable_position": [
+              3,
+              6,
+              44
+            ],
+            "base_confidence": 0.8154,
+            "consistency_bonus": 0.1,
+            "walkable_lanes": [
+              [
+                3,
+                4,
+                44
+              ],
+              [
+                3,
+                5,
+                44
+              ],
+              [
+                3,
+                6,
+                44
+              ],
+              [
+                3,
+                7,
+                44
+              ],
+              [
+                3,
+                8,
+                44
+              ]
+            ]
+          }
+        },
+        {
+          "direction": "east",
+          "local_position": [
+            44,
+            6,
+            3
+          ],
+          "floor_normal": "south",
+          "opening": {
+            "width": 5,
+            "height": 4
+          },
+          "confidence": 1,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 462,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 11,
+            "walkable_position": [
+              44,
+              6,
+              3
+            ],
+            "base_confidence": 1.0,
+            "consistency_bonus": 0.1,
+            "walkable_lanes": [
+              [
+                44,
+                4,
+                3
+              ],
+              [
+                44,
+                5,
+                3
+              ],
+              [
+                44,
+                6,
+                3
+              ],
+              [
+                44,
+                7,
+                3
+              ],
+              [
+                44,
+                8,
+                3
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "castle_part_004_west_r3",
+      "source": "castle_part_004",
+      "display_name": "階段１",
+      "category": "stairs",
+      "source_hash": "28215a699bd6b95586b41995ff12505a3f0793f798b33671f992da63708689cd",
+      "floor_normal": "west",
+      "yaw_quarter_turns": 3,
+      "angles": [
+        0,
+        0,
+        90
+      ],
+      "size": [
+        48,
+        13,
+        45
+      ],
+      "file_hash": "f419f2ec73896041ea8cfe2fe2eaa94c781b1e1cfa9479621ecb367bc83c0a4e",
+      "content_hash": "275bb289e0cc9c3c19906eddcfc85ebaf79e64475b3bf950569cf3e65da7cb35",
+      "solid_block_count": 893,
+      "sockets": [
+        {
+          "direction": "north",
+          "local_position": [
+            3,
+            6,
+            2
+          ],
+          "floor_normal": "west",
+          "opening": {
+            "width": 5,
+            "height": 4
+          },
+          "confidence": 0.9154,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 462,
+            "depth_from_bounds": 3,
+            "walkable_run_width": 11,
+            "walkable_position": [
+              3,
+              6,
+              3
+            ],
+            "base_confidence": 0.8154,
+            "consistency_bonus": 0.1,
+            "walkable_lanes": [
+              [
+                3,
+                4,
+                3
+              ],
+              [
+                3,
+                5,
+                3
+              ],
+              [
+                3,
+                6,
+                3
+              ],
+              [
+                3,
+                7,
+                3
+              ],
+              [
+                3,
+                8,
+                3
+              ]
+            ]
+          }
+        },
+        {
+          "direction": "south",
+          "local_position": [
+            44,
+            6,
+            44
+          ],
+          "floor_normal": "west",
+          "opening": {
+            "width": 5,
+            "height": 4
+          },
+          "confidence": 1,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 462,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 11,
+            "walkable_position": [
+              44,
+              6,
+              44
+            ],
+            "base_confidence": 1.0,
+            "consistency_bonus": 0.1,
+            "walkable_lanes": [
+              [
+                44,
+                4,
+                44
+              ],
+              [
+                44,
+                5,
+                44
+              ],
+              [
+                44,
+                6,
+                44
+              ],
+              [
+                44,
+                7,
+                44
+              ],
+              [
+                44,
+                8,
+                44
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "castle_part_004_east_r2",
+      "source": "castle_part_004",
+      "display_name": "階段１",
+      "category": "stairs",
+      "source_hash": "28215a699bd6b95586b41995ff12505a3f0793f798b33671f992da63708689cd",
+      "floor_normal": "east",
+      "yaw_quarter_turns": 2,
+      "angles": [
+        0,
+        270,
+        270
+      ],
+      "size": [
+        48,
+        45,
+        13
+      ],
+      "file_hash": "1b137246c0a0ddd7016ef950e6a1658913c9229664c04a6fe45c2ef5af68d8d1",
+      "content_hash": "ce190039f544f30f7f5e19bd714bbb9268b55abcced7a67e6f832b04eee024e3",
+      "solid_block_count": 893,
+      "sockets": [
+        {
+          "direction": "down",
+          "local_position": [
+            44,
+            2,
+            6
+          ],
+          "floor_normal": "east",
+          "opening": {
+            "width": 5,
+            "height": 4
+          },
+          "confidence": 0.9154,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 462,
+            "depth_from_bounds": 3,
+            "walkable_run_width": 11,
+            "walkable_position": [
+              44,
+              3,
+              6
+            ],
+            "base_confidence": 0.8154,
+            "consistency_bonus": 0.1,
+            "walkable_lanes": [
+              [
+                44,
+                3,
+                4
+              ],
+              [
+                44,
+                3,
+                5
+              ],
+              [
+                44,
+                3,
+                6
+              ],
+              [
+                44,
+                3,
+                7
+              ],
+              [
+                44,
+                3,
+                8
+              ]
+            ]
+          }
+        },
+        {
+          "direction": "up",
+          "local_position": [
+            3,
+            44,
+            6
+          ],
+          "floor_normal": "east",
+          "opening": {
+            "width": 5,
+            "height": 4
+          },
+          "confidence": 1,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 462,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 11,
+            "walkable_position": [
+              3,
+              44,
+              6
+            ],
+            "base_confidence": 1.0,
+            "consistency_bonus": 0.1,
+            "walkable_lanes": [
+              [
+                3,
+                44,
+                4
+              ],
+              [
+                3,
+                44,
+                5
+              ],
+              [
+                3,
+                44,
+                6
+              ],
+              [
+                3,
+                44,
+                7
+              ],
+              [
+                3,
+                44,
+                8
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "castle_part_005_up_r3",
+      "source": "castle_part_005",
+      "display_name": "階段２",
+      "category": "stairs",
+      "source_hash": "fbc0d0df004cc0a1f5aac72de8c5a96307555fc40b832b1789385239f1c16726",
+      "floor_normal": "up",
+      "yaw_quarter_turns": 3,
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        37,
+        13,
+        41
+      ],
+      "file_hash": "977a7de24008f4bc81618ded62107414818f2aa6cd5f7cadc3f5a69ba556c92c",
+      "content_hash": "a1c4b2b7065bff25f31475740a7e43ad483da7fd5942b2ad10ca345ea902deff",
+      "solid_block_count": 703,
+      "sockets": [
+        {
+          "direction": "west",
+          "local_position": [
+            0,
+            1,
+            1
+          ],
+          "floor_normal": "up",
+          "opening": {
+            "width": 3,
+            "height": 4
+          },
+          "confidence": 1,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 148,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 3,
+            "walkable_position": [
+              0,
+              1,
+              1
+            ],
+            "base_confidence": 0.9305,
+            "consistency_bonus": 0.1,
+            "walkable_lanes": [
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                1,
+                1
+              ],
+              [
+                0,
+                1,
+                2
+              ]
+            ]
+          }
+        },
+        {
+          "direction": "east",
+          "local_position": [
+            36,
+            1,
+            37
+          ],
+          "floor_normal": "up",
+          "opening": {
+            "width": 4,
+            "height": 4
+          },
+          "confidence": 1,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 148,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 4,
+            "walkable_position": [
+              36,
+              1,
+              37
+            ],
+            "base_confidence": 0.9378,
+            "consistency_bonus": 0.1,
+            "walkable_lanes": [
+              [
+                36,
+                1,
+                35
+              ],
+              [
+                36,
+                1,
+                36
+              ],
+              [
+                36,
+                1,
+                37
+              ],
+              [
+                36,
+                1,
+                38
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "castle_part_005_south_r2",
+      "source": "castle_part_005",
+      "display_name": "階段２",
+      "category": "stairs",
+      "source_hash": "fbc0d0df004cc0a1f5aac72de8c5a96307555fc40b832b1789385239f1c16726",
+      "floor_normal": "south",
+      "yaw_quarter_turns": 2,
+      "angles": [
+        90,
+        0,
+        90
+      ],
+      "size": [
+        41,
+        37,
+        13
+      ],
+      "file_hash": "468768075d934314957443ff8ae22536bea6d15ab111f6d39c048425307be2af",
+      "content_hash": "a26d1fd73920a383b2acd8cba7b9a0474c2f2d3f7b9257540d82da3c6cc9840d",
+      "solid_block_count": 703,
+      "sockets": [
+        {
+          "direction": "down",
+          "local_position": [
+            1,
+            0,
+            1
+          ],
+          "floor_normal": "south",
+          "opening": {
+            "width": 3,
+            "height": 4
+          },
+          "confidence": 1,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 148,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 3,
+            "walkable_position": [
+              1,
+              0,
+              1
+            ],
+            "base_confidence": 0.9305,
+            "consistency_bonus": 0.1,
+            "walkable_lanes": [
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                1,
+                0,
+                1
+              ],
+              [
+                2,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "direction": "up",
+          "local_position": [
+            37,
+            36,
+            1
+          ],
+          "floor_normal": "south",
+          "opening": {
+            "width": 4,
+            "height": 4
+          },
+          "confidence": 1,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 148,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 4,
+            "walkable_position": [
+              37,
+              36,
+              1
+            ],
+            "base_confidence": 0.9378,
+            "consistency_bonus": 0.1,
+            "walkable_lanes": [
+              [
+                35,
+                36,
+                1
+              ],
+              [
+                36,
+                36,
+                1
+              ],
+              [
+                37,
+                36,
+                1
+              ],
+              [
+                38,
+                36,
+                1
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "castle_part_005_east_r2",
+      "source": "castle_part_005",
+      "display_name": "階段２",
+      "category": "stairs",
+      "source_hash": "fbc0d0df004cc0a1f5aac72de8c5a96307555fc40b832b1789385239f1c16726",
+      "floor_normal": "east",
+      "yaw_quarter_turns": 2,
+      "angles": [
+        0,
+        270,
+        270
+      ],
+      "size": [
+        13,
+        41,
+        37
+      ],
+      "file_hash": "d064d60788ea1611ab51860d9cf385a5ed2e95140aa20c04de5b2c32f95c369e",
+      "content_hash": "df87d3202d9645b961030fca3359ce0cfe6da76d14b93f4cb26ce4cb00931970",
+      "solid_block_count": 703,
+      "sockets": [
+        {
+          "direction": "north",
+          "local_position": [
+            1,
+            1,
+            0
+          ],
+          "floor_normal": "east",
+          "opening": {
+            "width": 3,
+            "height": 4
+          },
+          "confidence": 1,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 148,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 3,
+            "walkable_position": [
+              1,
+              1,
+              0
+            ],
+            "base_confidence": 0.9305,
+            "consistency_bonus": 0.1,
+            "walkable_lanes": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                0
+              ],
+              [
+                1,
+                2,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "direction": "south",
+          "local_position": [
+            1,
+            37,
+            36
+          ],
+          "floor_normal": "east",
+          "opening": {
+            "width": 4,
+            "height": 4
+          },
+          "confidence": 1,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 148,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 4,
+            "walkable_position": [
+              1,
+              37,
+              36
+            ],
+            "base_confidence": 0.9378,
+            "consistency_bonus": 0.1,
+            "walkable_lanes": [
+              [
+                1,
+                35,
+                36
+              ],
+              [
+                1,
+                36,
+                36
+              ],
+              [
+                1,
+                37,
+                36
+              ],
+              [
+                1,
+                38,
+                36
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "castle_part_006_up_r3",
+      "source": "castle_part_006",
+      "display_name": "階段３",
+      "category": "stairs",
+      "source_hash": "18b19a0087e40af8c707f25894796a5ee872c2b3989f02aede2122e015ddb4db",
+      "floor_normal": "up",
+      "yaw_quarter_turns": 3,
+      "angles": [
+        0,
+        0,
+        0
+      ],
+      "size": [
+        37,
+        13,
+        41
+      ],
+      "file_hash": "0579e74256f69fc50d99aa5d7cc25dca89e8f82952805467e5dc452f8d81a601",
+      "content_hash": "670b34a5de1451d6becb1d05abefa656e3e0b1bf3ee303920a392751c50d5d03",
+      "solid_block_count": 703,
+      "sockets": [
+        {
+          "direction": "west",
+          "local_position": [
+            0,
+            1,
+            39
+          ],
+          "floor_normal": "up",
+          "opening": {
+            "width": 3,
+            "height": 4
+          },
+          "confidence": 1,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 148,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 3,
+            "walkable_position": [
+              0,
+              1,
+              39
+            ],
+            "base_confidence": 0.9305,
+            "consistency_bonus": 0.1,
+            "walkable_lanes": [
+              [
+                0,
+                1,
+                38
+              ],
+              [
+                0,
+                1,
+                39
+              ],
+              [
+                0,
+                1,
+                40
+              ]
+            ]
+          }
+        },
+        {
+          "direction": "east",
+          "local_position": [
+            36,
+            1,
+            4
+          ],
+          "floor_normal": "up",
+          "opening": {
+            "width": 4,
+            "height": 4
+          },
+          "confidence": 1,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 148,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 4,
+            "walkable_position": [
+              36,
+              1,
+              4
+            ],
+            "base_confidence": 0.9415,
+            "consistency_bonus": 0.1,
+            "walkable_lanes": [
+              [
+                36,
+                1,
+                2
+              ],
+              [
+                36,
+                1,
+                3
+              ],
+              [
+                36,
+                1,
+                4
+              ],
+              [
+                36,
+                1,
+                5
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "castle_part_006_south_r2",
+      "source": "castle_part_006",
+      "display_name": "階段３",
+      "category": "stairs",
+      "source_hash": "18b19a0087e40af8c707f25894796a5ee872c2b3989f02aede2122e015ddb4db",
+      "floor_normal": "south",
+      "yaw_quarter_turns": 2,
+      "angles": [
+        90,
+        0,
+        90
+      ],
+      "size": [
+        41,
+        37,
+        13
+      ],
+      "file_hash": "e8ac84c5a2af23fdde4cafbde6b956cf2fd6e66862b5bf3d1a46e6635937394c",
+      "content_hash": "cb503d157c38c097f16bf3f07599c4fa8f175aeadff76b1d4be94d41894e482f",
+      "solid_block_count": 703,
+      "sockets": [
+        {
+          "direction": "down",
+          "local_position": [
+            39,
+            0,
+            1
+          ],
+          "floor_normal": "south",
+          "opening": {
+            "width": 3,
+            "height": 4
+          },
+          "confidence": 1,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 148,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 3,
+            "walkable_position": [
+              39,
+              0,
+              1
+            ],
+            "base_confidence": 0.9305,
+            "consistency_bonus": 0.1,
+            "walkable_lanes": [
+              [
+                38,
+                0,
+                1
+              ],
+              [
+                39,
+                0,
+                1
+              ],
+              [
+                40,
+                0,
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "direction": "up",
+          "local_position": [
+            4,
+            36,
+            1
+          ],
+          "floor_normal": "south",
+          "opening": {
+            "width": 4,
+            "height": 4
+          },
+          "confidence": 1,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 148,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 4,
+            "walkable_position": [
+              4,
+              36,
+              1
+            ],
+            "base_confidence": 0.9415,
+            "consistency_bonus": 0.1,
+            "walkable_lanes": [
+              [
+                2,
+                36,
+                1
+              ],
+              [
+                3,
+                36,
+                1
+              ],
+              [
+                4,
+                36,
+                1
+              ],
+              [
+                5,
+                36,
+                1
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "castle_part_006_east_r2",
+      "source": "castle_part_006",
+      "display_name": "階段３",
+      "category": "stairs",
+      "source_hash": "18b19a0087e40af8c707f25894796a5ee872c2b3989f02aede2122e015ddb4db",
+      "floor_normal": "east",
+      "yaw_quarter_turns": 2,
+      "angles": [
+        0,
+        270,
+        270
+      ],
+      "size": [
+        13,
+        41,
+        37
+      ],
+      "file_hash": "982a12049632ed6b712cd66504f2a6182495d0f58a98bc61fecfb08e87c2fac2",
+      "content_hash": "28c591c4585d153679ef50c2713ad315fdd57c11921d07c597d0c17a4dd0a460",
+      "solid_block_count": 703,
+      "sockets": [
+        {
+          "direction": "north",
+          "local_position": [
+            1,
+            39,
+            0
+          ],
+          "floor_normal": "east",
+          "opening": {
+            "width": 3,
+            "height": 4
+          },
+          "confidence": 1,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 148,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 3,
+            "walkable_position": [
+              1,
+              39,
+              0
+            ],
+            "base_confidence": 0.9305,
+            "consistency_bonus": 0.1,
+            "walkable_lanes": [
+              [
+                1,
+                38,
+                0
+              ],
+              [
+                1,
+                39,
+                0
+              ],
+              [
+                1,
+                40,
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "direction": "south",
+          "local_position": [
+            1,
+            4,
+            36
+          ],
+          "floor_normal": "east",
+          "opening": {
+            "width": 4,
+            "height": 4
+          },
+          "confidence": 1,
+          "evidence": {
+            "walkable_component": 0,
+            "component_size": 148,
+            "depth_from_bounds": 0,
+            "walkable_run_width": 4,
+            "walkable_position": [
+              1,
+              4,
+              36
+            ],
+            "base_confidence": 0.9415,
+            "consistency_bonus": 0.1,
+            "walkable_lanes": [
+              [
+                1,
+                2,
+                36
+              ],
+              [
+                1,
+                3,
+                36
+              ],
+              [
+                1,
+                4,
+                36
+              ],
+              [
+                1,
+                5,
+                36
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

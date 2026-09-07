@@ -1,0 +1,22 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:fog_settings": {
+    "description": {
+      "identifier": "infinite_castle:sunset_haze"
+    },
+    "distance": {
+      "air": {
+        "fog_start": 0.40,
+        "fog_end": 0.90,
+        "fog_color": "#B93B26",
+        "render_distance_type": "render"
+      },
+      "weather": {
+        "fog_start": 0.40,
+        "fog_end": 0.90,
+        "fog_color": "#B93B26",
+        "render_distance_type": "render"
+      }
+    }
+  }
+}
